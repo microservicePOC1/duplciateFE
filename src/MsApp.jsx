@@ -8,7 +8,7 @@ const MsApp = () => {
 
     const doFetch = async () => {
 //         let result = await fetch('/api/sample/')
-        let result = await fetch('https://gateway-1-charles3.apps.qqd02ebq.usgovvirginia.aroapp.azure.us/')
+        let result = await fetch('https://gateway-1-charles3.apps.qqd02ebq.usgovvirginia.aroapp.azure.us/sample')
         result = await result.text()
         setMessage(callMessage)
         setData(result)  
